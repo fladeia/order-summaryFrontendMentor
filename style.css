@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* Primary */
+  --paleBlue: hsl(225, 100%, 94%);
+  --brightBlue: hsl(245, 75%, 52%);
+
+  /* Neutral */
+  --veryPaleBlue: hsl(225, 100%, 98%);
+  --desaturatedBlue: hsl(224, 23%, 55%);
+  --darkBlue: hsl(223, 47%, 23%);
+}
+
+body {
+  max-width: 1440px;
+  margin: auto;
+
+  font-family: "Red Hat Display", sans-serif;
+}
+
+.bg {
+  height: 100vh;
+  background-image: url("./images/pattern-background-desktop.svg");
+  background-color: var(--paleBlue);
+  background-repeat: no-repeat;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  border: 3px solid rgb(0, 0, 0);
+}
+
+main {
+  width: 450px;
+  height: 700px;
+  border-radius: 24px;
+  background-color: #fff;
+
+  display: flex;
+  flex-direction: column;
+}
+
+main .image img {
+  border-radius: 24px 24px 0 0;
+}
+
+main .content {
+  padding: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1;
+  border-radius: 0 0 24px 24px;
+
+  /* border: 3px solid rgb(0, 253, 0); */
+}
+
+main .content .plan-container {
+  width: 100%;
+  padding: 16px;
+  border-radius: 16px;
+
+  background-color: var(--veryPaleBlue);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+main .content .plan-container {
+  font-weight: bold;
+}
+
+main .content .plan-price {
+  font-size: 12px;
+}
+
+main .content h1 {
+  font-weight: 700;
+}
+
+main .content p {
+  color: var(--desaturatedBlue);
+  font-weight: 500;
+  text-align: center;
+}
+
+main .content .btn {
+  width: 100%;
+  padding: 16px;
+  border: none;
+  border-radius: 16px;
+
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+
+  background-color: var(--brightBlue);
+}
+
+@media (max-width: 375px) {
+  body {
+    display: none;
+  }
+}

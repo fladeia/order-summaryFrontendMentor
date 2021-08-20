@@ -1,13 +1,13 @@
-# Front-end Style Guide
+<!-- # Front-end Style Guide
 
 ## Layout
 
 The designs were created to the following widths:
 
 - Mobile: 375px
-- Desktop: 1440px
+- Desktop: 1440px -->
 
-## Colors
+<!-- ## Colors
 
 ### Primary
 
@@ -20,13 +20,13 @@ The designs were created to the following widths:
 - Desaturated blue: hsl(224, 23%, 55%)
 - Dark blue: hsl(223, 47%, 23%)
 
-## Typography
+## Typography -->
 
 ### Body Copy
 
 - Font size (paragraph): 16px
 
-### Font
+<!-- ### Font
 
 - Family: [Red Hat Display](https://fonts.google.com/specimen/Red+Hat+Display)
-- Weights: 500, 700, 900
+- Weights: 500, 700, 900 -->
