@@ -65,17 +65,17 @@ main .content {
 }
 
 .content h1 {
+  font-size: 29px;
   font-weight: 900;
   color: var(--darkBlue);
-  font-size: 29px;
   margin-bottom: 20px;
 }
 
 .content h3 {
   font-size: 18px;
-  color: var(--desaturatedBlue);
   font-weight: 500;
   text-align: center;
+  color: var(--desaturatedBlue);
   line-height: 26px;
 }
 
@@ -149,7 +149,6 @@ main .content {
 }
 
 .plan-condition a {
-  cursor: pointer;
   color: blue;
   text-decoration: revert;
 }
@@ -159,8 +158,10 @@ main .content {
   text-decoration: none;
 }
 
-@media (max-width: 375px) {
-  body {
-    display: none;
+@media (max-width: 450px) {
+  main,
+  .image,
+  .illustration {
+    width: 375px;
   }
 }
