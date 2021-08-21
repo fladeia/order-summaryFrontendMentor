@@ -34,8 +34,6 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
-  border: 3px solid rgb(0, 0, 0);
 }
 
 main {
@@ -48,20 +46,22 @@ main {
   flex-direction: column;
 }
 
+main .image {
+  height: 220px;
+}
+
 main .image img {
-  border-radius: 24px 24px 0 0;
+  border-radius: 20px 20px 0 0;
 }
 
 main .content {
   padding: 10%;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   align-items: center;
   flex: 1;
-  border-radius: 0 0 24px 24px;
-
-  /* border: 3px solid rgb(0, 253, 0); */
+  border-radius: 0 0 20px 20px;
 }
 
 main .content .plan-container {
@@ -78,6 +78,7 @@ main .content .plan-container {
 
 main .content .plan-container {
   font-weight: bold;
+  margin-top: 26px;
 }
 
 main .content .plan-price {
@@ -85,20 +86,32 @@ main .content .plan-price {
 }
 
 main .content h1 {
-  font-weight: 700;
+  font-weight: 900;
+  color: hsl(223, 47%, 23%);
+  font-size: 28px;
+  margin-bottom: 30px;
 }
 
-main .content p {
+main .content strong,
+p {
+  font-size: 18px;
   color: var(--desaturatedBlue);
   font-weight: 500;
   text-align: center;
+  line-height: 26px;
+}
+
+main .content p {
+  font-size: 16px;
+  font-weight: 700;
 }
 
 main .content .btn {
   width: 100%;
   padding: 16px;
   border: none;
-  border-radius: 16px;
+  border-radius: 10px;
+  margin: 26px 0 36px 0;
 
   font-size: 14px;
   font-weight: 700;
