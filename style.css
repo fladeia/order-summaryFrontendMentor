@@ -15,6 +15,7 @@
   --veryPaleBlue: hsl(225, 100%, 98%);
   --desaturatedBlue: hsl(224, 23%, 55%);
   --darkBlue: hsl(223, 47%, 23%);
+  --btnHover: #766cf1;
 }
 
 body {
@@ -66,8 +67,10 @@ main .content {
 
 main .content .plan-container {
   width: 100%;
-  padding: 16px;
+  padding: 24px;
   border-radius: 16px;
+  margin-top: 26px;
+  font-weight: bold;
 
   background-color: var(--veryPaleBlue);
 
@@ -76,29 +79,56 @@ main .content .plan-container {
   align-items: center;
 }
 
-main .content .plan-container {
-  font-weight: bold;
-  margin-top: 26px;
+.content .plan-container a {
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.content .plan-container a:hover {
+  color: #766cf1;
+  text-decoration: none;
 }
 
 main .content .plan-price {
-  font-size: 12px;
+  display: flex;
+}
+
+main .content .plan-price .price {
+  margin-left: 20px;
+}
+
+.plan-price .price h2 {
+  font-size: 17px;
+  font-weight: 900;
+  color: var(--darkBlue);
+}
+
+.plan-price .price p {
+  font-size: 17px;
+  font-weight: 700;
+  color: var(--desaturatedBlue);
 }
 
 main .content h1 {
   font-weight: 900;
-  color: hsl(223, 47%, 23%);
-  font-size: 28px;
-  margin-bottom: 30px;
+  color: var(--darkBlue);
+  font-size: 29px;
+  margin-bottom: 20px;
 }
 
-main .content strong,
+main .content a,
 p {
-  font-size: 18px;
+  font-size: 15px;
   color: var(--desaturatedBlue);
-  font-weight: 500;
+  font-weight: 900;
   text-align: center;
   line-height: 26px;
+  text-decoration: none;
+}
+
+main .content a:hover {
+  color: #000;
+  cursor: pointer;
 }
 
 main .content p {
@@ -118,6 +148,12 @@ main .content .btn {
   color: #fff;
 
   background-color: var(--brightBlue);
+  box-shadow: 0px 24px 16px var(--paleBlue);
+}
+
+main .content .btn:hover {
+  background-color: #766cf1;
+  cursor: pointer;
 }
 
 @media (max-width: 375px) {
