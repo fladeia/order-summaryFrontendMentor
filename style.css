@@ -36,37 +36,38 @@ main {
 .card {
   width: 450px;
   height: 700px;
-  border-radius: 24px;
-  background-color: #fff;
+  border-radius: 1.5rem;
+  background-color: var(--veryPaleBlue);
 }
 
 .card-img {
-  border-radius: 20px 20px 0 0;
+  border-radius: 1.5rem 1.5rem 0 0;
 }
 
 .content {
-  padding: 10%;
+  padding: 3rem;
   text-align: center;
 }
 
 h1 {
-  font-size: 29px;
+  font-size: 1.8rem;
   font-weight: 900;
   color: var(--darkBlue);
 }
 
 span {
-  margin-top: 20px;
-  font-size: 18px;
+  display: block;
+  margin-top: 1.25rem;
+  font-size: 1.2rem;
   font-weight: 500;
   color: var(--desaturatedBlue);
-  line-height: 26px;
+  line-height: 1.6rem;
 }
 
 .plans {
-  padding: 24px;
-  border-radius: 16px;
-  margin-top: 26px;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  margin-top: 1.6rem;
   background-color: var(--veryPaleBlue);
   display: flex;
   justify-content: space-between;
@@ -79,18 +80,18 @@ span {
 }
 
 .price {
-  margin-left: 20px;
+  margin-left: 1.2rem;
 }
 
 .annual {
-  font-size: 17px;
+  font-size: 1rem;
   font-weight: 900;
   color: var(--darkBlue);
 }
 
 .amount {
-  margin-top: 4px;
-  font-size: 17px;
+  margin-top: 0.2rem;
+  font-size: 1rem;
   font-weight: 500;
   color: var(--desaturatedBlue);
 }
@@ -101,31 +102,31 @@ span {
 }
 
 .change-btn:hover {
-  color: #766cf1;
+  color: var(--btnHover);
   font-weight: 900;
   text-decoration: none;
 }
 
 .payment-btn {
   width: 100%;
-  padding: 16px;
+  padding: 1rem;
   border: none;
-  border-radius: 10px;
-  margin-top: 26px;
-  font-size: 16px;
+  border-radius: 0.6rem;
+  margin-top: 1.6rem;
+  font-size: 1rem;
   font-weight: 700;
-  color: #fff;
+  color: var(--veryPaleBlue);
   background-color: var(--brightBlue);
-  box-shadow: 12px 16px 16px var(--paleBlue);
+  box-shadow: 0.7rem 1rem 1rem var(--paleBlue);
 }
 
 .cancel-btn {
   width: 50%;
   display: block;
-  margin: 36px auto 0;
-  font-size: 15px;
+  margin: 2.2rem auto 0;
+  font-size: 1rem;
   font-weight: 900;
-  color: var(--brightBlue);
+  color: var(--desaturatedBlue);
   text-decoration: none;
 }
 
@@ -135,8 +136,16 @@ span {
 }
 
 @media (max-width: 450px) {
-  main,
+  .card,
   .card-img {
     width: 375px;
+  }
+
+  span {
+    font-size: 1rem;
+  }
+
+  .plans {
+    padding: 1.5rem 0;
   }
 }
