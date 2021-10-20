@@ -120,6 +120,10 @@ span {
   box-shadow: 0.7rem 1rem 1rem var(--paleBlue);
 }
 
+.payment-bth:hover {
+    background-color: var(--btnHover);
+}
+
 .cancel-btn {
   width: 50%;
   display: block;
