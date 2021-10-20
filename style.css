@@ -96,18 +96,22 @@ span {
   color: var(--desaturatedBlue);
 }
 
-.change-btn {
+.btn {
+  cursor: pointer;
+}
+
+.change {
   color: var(--brightBlue);
   font-weight: 900;
 }
 
-.change-btn:hover {
+.change:hover {
   color: var(--btnHover);
   font-weight: 900;
   text-decoration: none;
 }
 
-.payment-btn {
+.payment {
   width: 100%;
   padding: 1rem;
   border: none;
@@ -120,11 +124,11 @@ span {
   box-shadow: 0.7rem 1rem 1rem var(--paleBlue);
 }
 
-.payment-bth:hover {
-    background-color: var(--btnHover);
+.payment:hover {
+  background-color: var(--btnHover);
 }
 
-.cancel-btn {
+.cancel {
   width: 50%;
   display: block;
   margin: 2.2rem auto 0;
@@ -134,9 +138,8 @@ span {
   text-decoration: none;
 }
 
-.cancel-btn:hover {
+.cancel:hover {
   color: var(--darkBlue);
-  cursor: pointer;
 }
 
 @media (max-width: 450px) {
