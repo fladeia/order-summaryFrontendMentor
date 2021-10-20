@@ -7,10 +7,6 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 Users should be able to:
 - See hover states for interactive elements
 
-### Screenshot
-
-![Design preview for the Order summary card coding challenge](./design/desktop-preview.jpg)
-
 ### Links
 
 - Solution URL: [Add solution URL here](https://github.com/fladeia/order-summaryFrontendMentor)
