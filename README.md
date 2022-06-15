@@ -9,8 +9,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/fladeia/order-summaryFrontendMentor)
-- Live Site URL: [Add live site URL here](https://quirky-mclean-585c4e.netlify.app/)
+- [Solution URL](https://github.com/fladeia/order-summaryFrontendMentor)
+- [Live Site URL](https://quirky-mclean-585c4e.netlify.app/)
 
 ### Built with
 
